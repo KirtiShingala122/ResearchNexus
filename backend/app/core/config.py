@@ -26,6 +26,13 @@ class Settings(BaseSettings):
 
     # --- OpenAlex ---
     OPENALEX_EMAIL: str = ""
+    
+    # --- OpenAlex Collection Settings ---
+    SEARCH_TERMS: List[str] = ["Information Retrieval", "Natural Language Processing"]
+    START_YEAR: int = 2015
+    END_YEAR: int = 2025
+    MAX_PAPERS: int = 1000  # Default max papers to collect to avoid infinite loops, configurable
+    API_PAGE_SIZE: int = 100 # OpenAlex max is 200, typically use 50-100 for stability
 
     # --- CORS ---
     CORS_ORIGINS: List[str] = [
