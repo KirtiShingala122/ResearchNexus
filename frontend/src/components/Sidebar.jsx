@@ -2,24 +2,14 @@ import { NavLink } from "react-router-dom";
 import {
   LayoutDashboard,
   FileText,
-  Users,
-  Tags,
-  Network,
-  TrendingUp,
-  Search,
-  Settings,
+  BarChart2,
   FlaskConical,
 } from "lucide-react";
 
 const navItems = [
   { to: "/", icon: LayoutDashboard, label: "Dashboard" },
-  { to: "/papers", icon: FileText, label: "Papers" },
-  { to: "/authors", icon: Users, label: "Authors" },
-  { to: "/topics", icon: Tags, label: "Topics" },
-  { to: "/networks", icon: Network, label: "Networks" },
-  { to: "/trends", icon: TrendingUp, label: "Trends" },
-  { to: "/search", icon: Search, label: "Semantic Search" },
-  { to: "/settings", icon: Settings, label: "Settings" },
+  { to: "/papers", icon: FileText, label: "Paper Explorer" },
+  { to: "/analysis", icon: BarChart2, label: "Research Analysis" },
 ];
 
 export default function Sidebar({ collapsed, onToggle }) {

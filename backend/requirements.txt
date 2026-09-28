@@ -22,10 +22,11 @@ python-dotenv==1.0.1
 pydantic-settings==2.7.1
 
 # --- NLP / Analysis (will be used in later phases) ---
-# scikit-learn==1.6.1
+scikit-learn==1.6.1
+nltk==3.9.1
 # spacy==3.8.4
 # sentence-transformers==3.4.1
-# networkx==3.4.2
+networkx==3.4.2
 
 # --- CORS ---
 # (included in fastapi)
