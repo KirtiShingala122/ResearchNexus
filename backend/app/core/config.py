@@ -1,5 +1,5 @@
 """
-ResearchLens — Core Configuration
+ResearchNexus — Core Configuration
 
 Centralised settings loaded from environment variables / .env file.
 """
@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     """Application-wide settings sourced from env vars."""
 
     # --- Application ---
-    APP_NAME: str = "ResearchLens"
+    APP_NAME: str = "ResearchNexus"
     APP_VERSION: str = "0.1.0"
     DEBUG: bool = True
 
@@ -22,7 +22,7 @@ class Settings(BaseSettings):
 
     # --- MongoDB ---
     MONGODB_URI: str = "mongodb://localhost:27017"
-    MONGODB_DB_NAME: str = "researchlens"
+    MONGODB_DB_NAME: str = "researchnexus"
 
     # --- OpenAlex ---
     OPENALEX_EMAIL: str = ""

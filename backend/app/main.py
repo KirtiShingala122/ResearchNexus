@@ -1,5 +1,5 @@
 """
-ResearchLens — FastAPI Application Entry Point
+ResearchNexus — FastAPI Application Entry Point
 
 AI-Powered Bibliometric and Research Discovery Platform.
 """

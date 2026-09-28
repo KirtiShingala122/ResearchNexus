@@ -1,5 +1,5 @@
 # ==========================================================
-# ResearchLens — Backend Dependencies
+# ResearchNexus — Backend Dependencies
 # ==========================================================
 
 # --- Web Framework ---

@@ -31,7 +31,7 @@ export default function Sidebar({ collapsed, onToggle }) {
       {/* Brand */}
       <div className="sidebar__brand">
         <FlaskConical className="sidebar__brand-icon" size={28} />
-        {!collapsed && <span className="sidebar__brand-text">ResearchLens</span>}
+        {!collapsed && <span className="sidebar__brand-text">ResearchNexus</span>}
       </div>
 
       {/* Navigation */}

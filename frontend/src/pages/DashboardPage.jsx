@@ -67,7 +67,7 @@ export default function DashboardPage() {
         <div className="dashboard__hero-content">
           <LayoutDashboard size={36} className="dashboard__hero-icon" />
           <div>
-            <h2 className="dashboard__hero-title">Welcome to ResearchLens</h2>
+            <h2 className="dashboard__hero-title">Welcome to ResearchNexus</h2>
             <p className="dashboard__hero-desc">
               AI-powered bibliometric analysis and research discovery platform.
               Collect scientific papers, analyze citation networks, and uncover

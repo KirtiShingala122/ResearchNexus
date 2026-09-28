@@ -1,5 +1,5 @@
 """
-ResearchLens — Database connection manager.
+ResearchNexus — Database connection manager.
 
 Provides async MongoDB client via Motor.
 """

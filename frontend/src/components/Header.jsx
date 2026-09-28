@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__left">
-        <h1 className="header__title">ResearchLens</h1>
+        <h1 className="header__title">ResearchNexus</h1>
         <span className="header__subtitle">
           AI-Powered Bibliometric &amp; Research Discovery
         </span>

@@ -1,5 +1,5 @@
 """
-ResearchLens — Health-check & system-info routes.
+ResearchNexus — Health-check & system-info routes.
 """
 
 from datetime import datetime, timezone
